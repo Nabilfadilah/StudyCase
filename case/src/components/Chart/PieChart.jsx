@@ -76,7 +76,7 @@ const PieChart = () => {
   }, [awal, akhir]);
 
   return (
-    <div style={{ width: "360px", height: "600px" }}>
+    <div style={{ width: "300px", height: "550px" }}>
       <h3 className="text-center mb-3">Pie Chart</h3>
 
       {pieData.labels && pieData.labels.length > 0 ? (

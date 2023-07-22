@@ -68,7 +68,7 @@ const Dashboard = () => {
 
               <div className="row g-3 my-2">
                 <div className="col-md-6">
-                  <div className="p-5 bg-white shadow align-items-center rounded">
+                  <div className="p-5 bg-white shadow d-flex justify-content-around align-items-center rounded">
                     <LineChart />
                   </div>
                 </div>

@@ -67,7 +67,7 @@ const LineChart = () => {
   }, [awal, akhir]);
 
   return (
-    <div style={{ width: "600px", height: "600px" }}>
+    <div style={{ width: "500px", height: "550px" }}>
       <h3 className="text-center mb-3">Line Chart</h3>
       {LineData.labels && LineData.labels.length > 0 ? (
         <Line data={LineData} />
@@ -75,6 +75,7 @@ const LineChart = () => {
         <p>Loading chart data...</p>
       )}
 
+      {/* responsive */}
       {/* <div style={{ width: "100%", height: "600px" }}>
         <ResponsiveContainer width="100%" height="80%">
           <Line data={LineData} />
